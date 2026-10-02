@@ -203,7 +203,7 @@ variable "firestore_wallet_transactions_collection" {
 variable "firestore_customer_billing_periods_collection" {
   description = "Top-level Firestore collection for customer monthly billing aggregates."
   type        = string
-  default     = "customer_billing_accounts_agentic22"
+  default     = "customer_billing_periods_agentic22"
 }
 
 variable "firestore_customer_billing_accounts_collection" {
